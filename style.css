@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fdfcfc;
+    background-image: url("imagens/imagem.png");
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right center;
+    background-position-x: 75%;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+#rodape{
+    background: rgb(224, 218, 218);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#746f6f
+}
+
+#topo{
+    border-bottom: 1px solid rgb(219, 211, 211);    
+}
+
+#menu{
+    margin-right: 270px;
+    text-align: right;
+    margin-bottom: 50px;
+    
+}
+
+.titulo{
+    color:#424242;
+    width: 500px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:900;
+    padding-left: 200px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+
+.paragrafo{
+    padding-left: 200px;
+    width: 440px;
+    margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.imagem{
+    padding-left: 160px;
+    width: 100px;
+    height: 50px;
+}
+
+.botao {
+    padding-left: 200px;
+    margin-bottom: 235px;
+    
+}
+
+.botao a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.botao a:hover {
+    background-color: #0056b3;
+}
+
+a{
+    color:#746f6f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center ;
+    padding: 15px;
+}
